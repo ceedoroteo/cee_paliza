@@ -16,22 +16,22 @@ body {
 
 nav {
 	background-color: #181818;
-	border-bottom: 2px solid #986beb;
+	border-bottom: 2px solid #9c0674;
 	animation: nav-anim 0.8s ease-in-out;
 }
 
 .btn {
-	background-color: #986beb;
+	background-color: #9c0674;
 	color: white;
 }
 
 .navbar-brand {
 	left: 3rem;
-	color: #986beb !important; /*violet color*/
+	color: #9c0674 !important; /*violet color*/
 }
 
 .navbar-toggler {
-	background-color: #986beb !important;
+	background-color: #9c0674 !important;
 }
 
 div > ul > .nav-item > a {
@@ -80,7 +80,7 @@ div > ul > .nav-item > a {
 }
 
 .banner-container #code {
-	color: #986beb;
+	color: #9c0674;
 	opacity: 0;
 	animation: banner-p-anim 0.8s ease-in-out forwards;
 	animation-delay: 0.3s;
@@ -109,7 +109,7 @@ div > ul > .nav-item > a {
 }
 
 #about-me #name {
-	color: #986beb;
+	color: ##9c0674;
 }
 
 /*#sub-description {
