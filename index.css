@@ -39,16 +39,17 @@ div > ul > .nav-item > a {
 }
 
 .navbar-dark .navbar-nav .selected {
-	color: #986beb
+	color: palevioletred;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #986beb;
+  color: white;
 }
 
 .navbar-brand {
-	font-size: 1.8rem;
-	font-family: 'Kaushan Script', sans-serif !important;
+	font-size: 2.3rem;
+	font-family: 'Grandiflora One', cursive !important;
+	font-weight: bold;
 }
 
 .banner-container {
@@ -79,11 +80,25 @@ div > ul > .nav-item > a {
     right: 0px;
 }
 
-.banner-container #code {
-	color: #9c0674;
+.banner-container #teach {
+	color: white;
 	opacity: 0;
 	animation: banner-p-anim 0.8s ease-in-out forwards;
 	animation-delay: 0.3s;
+}
+
+#name {
+
+	background: -webkit-linear-gradient(rgb(229, 192, 240), rgb(237, 139, 138));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#dev {
+
+	background: -webkit-linear-gradient(rgb(229, 192, 240), rgb(237, 139, 138));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner-container #test {
@@ -124,6 +139,9 @@ div > ul > .nav-item > a {
 #languages .fa-brands, .fa-solid, .fa {
 	font-size: 58px;
 	color: #986beb;
+	background: -webkit-linear-gradient(rgb(229, 192, 240), rgb(237, 139, 138));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
 }
 
 #languages .lang-txt {
@@ -132,7 +150,7 @@ div > ul > .nav-item > a {
 
 #languages #svg-languages {
 	object-fit: cover;
-	filter: invert(45%) sepia(65%) saturate(861%) hue-rotate(222deg) brightness(96%) contrast(92%);
+	mask-image: linear-gradient(to bottom, rgba(229, 192, 240, 1), rgba(237, 139, 138, 1));
 }
 
 .bg-q {
@@ -236,4 +254,20 @@ footer a .fa-facebook, a .fa-github {
 		opacity: 1;
 		transform: translate(0);
 	}
+}
+
+/*.container-fluid{
+	height: 100vh;
+}*/
+
+#home{
+	width: 100%;
+    height: 100vh; /* Set the container height to the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: stretch; /* Center vertically */
+    overflow: hidden; /* Hide any overflowing content */
+    background-size: cover; /* Cover the entire container without stretching */
+    background-position: center; /* Center the image within the container */
+    background-attachment: fixed; /* Keep the image fixed in place while scrolling */
 }
