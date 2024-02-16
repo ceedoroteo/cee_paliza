@@ -25,6 +25,11 @@ nav {
 	color: white;
 }
 
+.btn-sm {
+	background-color: #9c0674;
+	color: white;
+}
+
 .navbar-brand {
 	left: 3rem;
 	color: #9c0674 !important; /*violet color*/
@@ -169,7 +174,7 @@ div > ul > .nav-item > a {
 /*projects header*/
 #projects > div > h4 {
 	font-weight: bold;
-	color: #986beb;
+	color: #d7c3db;
 }
 
 #projects > div {
@@ -177,7 +182,7 @@ div > ul > .nav-item > a {
 }
 
 #projects .card-title {
-	color: #986beb;
+	color: #d7c3db;
 	font-weight: bold;
 }
 
@@ -187,7 +192,7 @@ div > ul > .nav-item > a {
 }
 
 #contactMe > div {
-	background-color: #e6e6fa;
+	background-color: #d7c3db;
 }
 
 #contactMe h2 {
@@ -270,4 +275,23 @@ footer a .fa-facebook, a .fa-github {
     background-size: cover; /* Cover the entire container without stretching */
     background-position: center; /* Center the image within the container */
     background-attachment: fixed; /* Keep the image fixed in place while scrolling */
+}
+
+.card {
+  position: relative;
+}
+
+.card .btn-sm {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 50%; /* Adjust the horizontal position */
+  transform: translateX(-50%); /* Center the button horizontally */
+}
+
+.btn-sm:hover{
+	color: lightyellow;
+	text-decoration: none;
+}
+.card-text{
+	margin-bottom: 30px;
 }
